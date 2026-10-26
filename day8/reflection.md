@@ -1,0 +1,7 @@
+## Course Reflection
+
+The most challenging concept in this course was shifting my mindset from writing isolated HTML, CSS, and JavaScript scripts to understanding distributed system architectures, specifically asynchronous processing and eventual consistency. Coming from an automotive engineering and telematics background, I am accustomed to highly deterministic, physical systems. To overcome this, I spent extra time drawing out request flows on paper until the interaction between application servers, message brokers, and background workers made logical sense.
+
+Based on the specific feedback I received on my capstone project, I would drastically improve my architecture documentation by detailing exactly how data moves during a write operation. My initial capstone submission accidentally omitted the component explanations and the step-by-step upload flow. In the future, I will ensure I map out the complete upload lifecycle, explicitly documenting how a client interacts with a message broker and identifying trade-offs like eventual consistency on follower feeds.
+
+Moving forward, I plan to dive deeply into backend development and API design using Python and FastAPI. Mastering these backend tools will perfectly bridge my web foundation skills with my ongoing interest in building connected vehicle telemetry systems.
